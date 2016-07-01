@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1805F4921D24AA9000D19C66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1805F4911D24AA9000D19C66 /* main.m */; };
+		1805F4951D24AA9000D19C66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1805F4941D24AA9000D19C66 /* AppDelegate.m */; };
+		1805F4981D24AA9000D19C66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1805F4971D24AA9000D19C66 /* ViewController.m */; };
+		1805F49B1D24AA9000D19C66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1805F4991D24AA9000D19C66 /* Main.storyboard */; };
+		1805F49D1D24AA9000D19C66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1805F49C1D24AA9000D19C66 /* Assets.xcassets */; };
+		1805F4A01D24AA9000D19C66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1805F49E1D24AA9000D19C66 /* LaunchScreen.storyboard */; };
+		1805F4AB1D24AA9100D19C66 /* __QQ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1805F4AA1D24AA9100D19C66 /* __QQ________Tests.m */; };
+		1805F4B61D24AA9100D19C66 /* __QQ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1805F4B51D24AA9100D19C66 /* __QQ________UITests.m */; };
+		1805F50F1D24B43900D19C66 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1805F4ED1D24B43900D19C66 /* FirstViewController.m */; };
+		1805F5101D24B43900D19C66 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1805F4EE1D24B43900D19C66 /* FirstViewController.xib */; };
+		1805F5111D24B43900D19C66 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1805F4F01D24B43900D19C66 /* LeftViewController.m */; };
+		1805F5121D24B43900D19C66 /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1805F4F11D24B43900D19C66 /* LeftViewController.xib */; };
+		1805F5131D24B43900D19C66 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1805F4F31D24B43900D19C66 /* MainViewController.m */; };
+		1805F5141D24B43900D19C66 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1805F4F41D24B43900D19C66 /* MainViewController.xib */; };
+		1805F5151D24B43900D19C66 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1805F4F61D24B43900D19C66 /* SecondViewController.m */; };
+		1805F5161D24B43900D19C66 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1805F4F71D24B43900D19C66 /* SecondViewController.xib */; };
+		1805F5171D24B43900D19C66 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1805F4F91D24B43900D19C66 /* TabBarViewController.m */; };
+		1805F5181D24B43900D19C66 /* TabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1805F4FA1D24B43900D19C66 /* TabBarViewController.xib */; };
+		1805F5191D24B43900D19C66 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1805F4FC1D24B43900D19C66 /* ThirdViewController.m */; };
+		1805F51A1D24B43900D19C66 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1805F4FD1D24B43900D19C66 /* ThirdViewController.xib */; };
+		1805F51B1D24B43900D19C66 /* 标签栏_圈子@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1805F4FF1D24B43900D19C66 /* 标签栏_圈子@2x.png */; };
+		1805F51C1D24B43900D19C66 /* 标签栏_圈子@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1805F5001D24B43900D19C66 /* 标签栏_圈子@3x.png */; };
+		1805F51D1D24B43900D19C66 /* 标签栏_我的@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1805F5011D24B43900D19C66 /* 标签栏_我的@2x.png */; };
+		1805F51E1D24B43900D19C66 /* 标签栏_我的@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1805F5021D24B43900D19C66 /* 标签栏_我的@3x.png */; };
+		1805F51F1D24B43900D19C66 /* 标签栏_排气管@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1805F5031D24B43900D19C66 /* 标签栏_排气管@2x.png */; };
+		1805F5201D24B43900D19C66 /* 标签栏_排气管@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1805F5041D24B43900D19C66 /* 标签栏_排气管@3x.png */; };
+		1805F5211D24B43900D19C66 /* 标签栏_赛道@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1805F5051D24B43900D19C66 /* 标签栏_赛道@2x.png */; };
+		1805F5221D24B43900D19C66 /* 标签栏_赛道@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1805F5061D24B43900D19C66 /* 标签栏_赛道@3x.png */; };
+		1805F5231D24B43900D19C66 /* 标签栏高亮_圈子@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1805F5071D24B43900D19C66 /* 标签栏高亮_圈子@2x.png */; };
+		1805F5241D24B43900D19C66 /* 标签栏高亮_圈子@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1805F5081D24B43900D19C66 /* 标签栏高亮_圈子@3x.png */; };
+		1805F5251D24B43900D19C66 /* 标签栏高亮_我的@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1805F5091D24B43900D19C66 /* 标签栏高亮_我的@2x.png */; };
+		1805F5261D24B43900D19C66 /* 标签栏高亮_我的@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1805F50A1D24B43900D19C66 /* 标签栏高亮_我的@3x.png */; };
+		1805F5271D24B43900D19C66 /* 标签栏高亮_排气管@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1805F50B1D24B43900D19C66 /* 标签栏高亮_排气管@2x.png */; };
+		1805F5281D24B43900D19C66 /* 标签栏高亮_排气管@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1805F50C1D24B43900D19C66 /* 标签栏高亮_排气管@3x.png */; };
+		1805F5291D24B43900D19C66 /* 标签栏高亮_赛道@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1805F50D1D24B43900D19C66 /* 标签栏高亮_赛道@2x.png */; };
+		1805F52A1D24B43900D19C66 /* 标签栏高亮_赛道@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1805F50E1D24B43900D19C66 /* 标签栏高亮_赛道@3x.png */; };
+		1842B8DB1D264440000CF711 /* VIP背景@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1842B8D91D264440000CF711 /* VIP背景@2x.png */; };
+		1842B8DC1D264440000CF711 /* VIP背景@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1842B8DA1D264440000CF711 /* VIP背景@3x.png */; };
+		1842B8E11D264A8E000CF711 /* LeftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1842B8DF1D264A8E000CF711 /* LeftTableViewCell.m */; };
+		1842B8E21D264A8E000CF711 /* LeftTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1842B8E01D264A8E000CF711 /* LeftTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1805F4A71D24AA9100D19C66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1805F4851D24AA9000D19C66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1805F48C1D24AA9000D19C66;
+			remoteInfo = "仿制QQ侧滑显示个人信息";
+		};
+		1805F4B21D24AA9100D19C66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1805F4851D24AA9000D19C66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1805F48C1D24AA9000D19C66;
+			remoteInfo = "仿制QQ侧滑显示个人信息";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1805F48D1D24AA9000D19C66 /* 仿制QQ侧滑显示个人信息.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "仿制QQ侧滑显示个人信息.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1805F4911D24AA9000D19C66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1805F4931D24AA9000D19C66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1805F4941D24AA9000D19C66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1805F4961D24AA9000D19C66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1805F4971D24AA9000D19C66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1805F49A1D24AA9000D19C66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1805F49C1D24AA9000D19C66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1805F49F1D24AA9000D19C66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1805F4A11D24AA9000D19C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1805F4A61D24AA9100D19C66 /* 仿制QQ侧滑显示个人信息Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿制QQ侧滑显示个人信息Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1805F4AA1D24AA9100D19C66 /* __QQ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__QQ________Tests.m"; sourceTree = "<group>"; };
+		1805F4AC1D24AA9100D19C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1805F4B11D24AA9100D19C66 /* 仿制QQ侧滑显示个人信息UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿制QQ侧滑显示个人信息UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1805F4B51D24AA9100D19C66 /* __QQ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__QQ________UITests.m"; sourceTree = "<group>"; };
+		1805F4B71D24AA9100D19C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1805F4EC1D24B43900D19C66 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		1805F4ED1D24B43900D19C66 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		1805F4EE1D24B43900D19C66 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		1805F4EF1D24B43900D19C66 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		1805F4F01D24B43900D19C66 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		1805F4F11D24B43900D19C66 /* LeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftViewController.xib; sourceTree = "<group>"; };
+		1805F4F21D24B43900D19C66 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1805F4F31D24B43900D19C66 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1805F4F41D24B43900D19C66 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		1805F4F51D24B43900D19C66 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		1805F4F61D24B43900D19C66 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		1805F4F71D24B43900D19C66 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		1805F4F81D24B43900D19C66 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		1805F4F91D24B43900D19C66 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		1805F4FA1D24B43900D19C66 /* TabBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarViewController.xib; sourceTree = "<group>"; };
+		1805F4FB1D24B43900D19C66 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		1805F4FC1D24B43900D19C66 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		1805F4FD1D24B43900D19C66 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		1805F4FF1D24B43900D19C66 /* 标签栏_圈子@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标签栏_圈子@2x.png"; sourceTree = "<group>"; };
+		1805F5001D24B43900D19C66 /* 标签栏_圈子@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标签栏_圈子@3x.png"; sourceTree = "<group>"; };
+		1805F5011D24B43900D19C66 /* 标签栏_我的@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标签栏_我的@2x.png"; sourceTree = "<group>"; };
+		1805F5021D24B43900D19C66 /* 标签栏_我的@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标签栏_我的@3x.png"; sourceTree = "<group>"; };
+		1805F5031D24B43900D19C66 /* 标签栏_排气管@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标签栏_排气管@2x.png"; sourceTree = "<group>"; };
+		1805F5041D24B43900D19C66 /* 标签栏_排气管@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标签栏_排气管@3x.png"; sourceTree = "<group>"; };
+		1805F5051D24B43900D19C66 /* 标签栏_赛道@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标签栏_赛道@2x.png"; sourceTree = "<group>"; };
+		1805F5061D24B43900D19C66 /* 标签栏_赛道@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标签栏_赛道@3x.png"; sourceTree = "<group>"; };
+		1805F5071D24B43900D19C66 /* 标签栏高亮_圈子@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标签栏高亮_圈子@2x.png"; sourceTree = "<group>"; };
+		1805F5081D24B43900D19C66 /* 标签栏高亮_圈子@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标签栏高亮_圈子@3x.png"; sourceTree = "<group>"; };
+		1805F5091D24B43900D19C66 /* 标签栏高亮_我的@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标签栏高亮_我的@2x.png"; sourceTree = "<group>"; };
+		1805F50A1D24B43900D19C66 /* 标签栏高亮_我的@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标签栏高亮_我的@3x.png"; sourceTree = "<group>"; };
+		1805F50B1D24B43900D19C66 /* 标签栏高亮_排气管@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标签栏高亮_排气管@2x.png"; sourceTree = "<group>"; };
+		1805F50C1D24B43900D19C66 /* 标签栏高亮_排气管@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标签栏高亮_排气管@3x.png"; sourceTree = "<group>"; };
+		1805F50D1D24B43900D19C66 /* 标签栏高亮_赛道@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标签栏高亮_赛道@2x.png"; sourceTree = "<group>"; };
+		1805F50E1D24B43900D19C66 /* 标签栏高亮_赛道@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标签栏高亮_赛道@3x.png"; sourceTree = "<group>"; };
+		1842B8D91D264440000CF711 /* VIP背景@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VIP背景@2x.png"; sourceTree = "<group>"; };
+		1842B8DA1D264440000CF711 /* VIP背景@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VIP背景@3x.png"; sourceTree = "<group>"; };
+		1842B8DE1D264A8E000CF711 /* LeftTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftTableViewCell.h; sourceTree = "<group>"; };
+		1842B8DF1D264A8E000CF711 /* LeftTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTableViewCell.m; sourceTree = "<group>"; };
+		1842B8E01D264A8E000CF711 /* LeftTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftTableViewCell.xib; sourceTree = "<group>"; };
+		1866908A1D25008B00E3EB6A /* FGloble.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGloble.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1805F48A1D24AA9000D19C66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1805F4A31D24AA9100D19C66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1805F4AE1D24AA9100D19C66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1805F4841D24AA9000D19C66 = {
+			isa = PBXGroup;
+			children = (
+				1805F48F1D24AA9000D19C66 /* 仿制QQ侧滑显示个人信息 */,
+				1805F4A91D24AA9100D19C66 /* 仿制QQ侧滑显示个人信息Tests */,
+				1805F4B41D24AA9100D19C66 /* 仿制QQ侧滑显示个人信息UITests */,
+				1805F48E1D24AA9000D19C66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1805F48E1D24AA9000D19C66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1805F48D1D24AA9000D19C66 /* 仿制QQ侧滑显示个人信息.app */,
+				1805F4A61D24AA9100D19C66 /* 仿制QQ侧滑显示个人信息Tests.xctest */,
+				1805F4B11D24AA9100D19C66 /* 仿制QQ侧滑显示个人信息UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1805F48F1D24AA9000D19C66 /* 仿制QQ侧滑显示个人信息 */ = {
+			isa = PBXGroup;
+			children = (
+				1842B8DD1D264A6A000CF711 /* view */,
+				1842B8D41D2642B0000CF711 /* resource */,
+				1805F4EB1D24B43900D19C66 /* viewController */,
+				1805F4FE1D24B43900D19C66 /* tabBar */,
+				1805F4931D24AA9000D19C66 /* AppDelegate.h */,
+				1805F4941D24AA9000D19C66 /* AppDelegate.m */,
+				1805F4961D24AA9000D19C66 /* ViewController.h */,
+				1805F4971D24AA9000D19C66 /* ViewController.m */,
+				1866908A1D25008B00E3EB6A /* FGloble.pch */,
+				1805F4991D24AA9000D19C66 /* Main.storyboard */,
+				1805F49C1D24AA9000D19C66 /* Assets.xcassets */,
+				1805F49E1D24AA9000D19C66 /* LaunchScreen.storyboard */,
+				1805F4A11D24AA9000D19C66 /* Info.plist */,
+				1805F4901D24AA9000D19C66 /* Supporting Files */,
+			);
+			path = "仿制QQ侧滑显示个人信息";
+			sourceTree = "<group>";
+		};
+		1805F4901D24AA9000D19C66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1805F4911D24AA9000D19C66 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1805F4A91D24AA9100D19C66 /* 仿制QQ侧滑显示个人信息Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1805F4AA1D24AA9100D19C66 /* __QQ________Tests.m */,
+				1805F4AC1D24AA9100D19C66 /* Info.plist */,
+			);
+			path = "仿制QQ侧滑显示个人信息Tests";
+			sourceTree = "<group>";
+		};
+		1805F4B41D24AA9100D19C66 /* 仿制QQ侧滑显示个人信息UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1805F4B51D24AA9100D19C66 /* __QQ________UITests.m */,
+				1805F4B71D24AA9100D19C66 /* Info.plist */,
+			);
+			path = "仿制QQ侧滑显示个人信息UITests";
+			sourceTree = "<group>";
+		};
+		1805F4EB1D24B43900D19C66 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				1805F4EC1D24B43900D19C66 /* FirstViewController.h */,
+				1805F4ED1D24B43900D19C66 /* FirstViewController.m */,
+				1805F4EE1D24B43900D19C66 /* FirstViewController.xib */,
+				1805F4EF1D24B43900D19C66 /* LeftViewController.h */,
+				1805F4F01D24B43900D19C66 /* LeftViewController.m */,
+				1805F4F11D24B43900D19C66 /* LeftViewController.xib */,
+				1805F4F21D24B43900D19C66 /* MainViewController.h */,
+				1805F4F31D24B43900D19C66 /* MainViewController.m */,
+				1805F4F41D24B43900D19C66 /* MainViewController.xib */,
+				1805F4F51D24B43900D19C66 /* SecondViewController.h */,
+				1805F4F61D24B43900D19C66 /* SecondViewController.m */,
+				1805F4F71D24B43900D19C66 /* SecondViewController.xib */,
+				1805F4F81D24B43900D19C66 /* TabBarViewController.h */,
+				1805F4F91D24B43900D19C66 /* TabBarViewController.m */,
+				1805F4FA1D24B43900D19C66 /* TabBarViewController.xib */,
+				1805F4FB1D24B43900D19C66 /* ThirdViewController.h */,
+				1805F4FC1D24B43900D19C66 /* ThirdViewController.m */,
+				1805F4FD1D24B43900D19C66 /* ThirdViewController.xib */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		1805F4FE1D24B43900D19C66 /* tabBar */ = {
+			isa = PBXGroup;
+			children = (
+				1805F4FF1D24B43900D19C66 /* 标签栏_圈子@2x.png */,
+				1805F5001D24B43900D19C66 /* 标签栏_圈子@3x.png */,
+				1805F5011D24B43900D19C66 /* 标签栏_我的@2x.png */,
+				1805F5021D24B43900D19C66 /* 标签栏_我的@3x.png */,
+				1805F5031D24B43900D19C66 /* 标签栏_排气管@2x.png */,
+				1805F5041D24B43900D19C66 /* 标签栏_排气管@3x.png */,
+				1805F5051D24B43900D19C66 /* 标签栏_赛道@2x.png */,
+				1805F5061D24B43900D19C66 /* 标签栏_赛道@3x.png */,
+				1805F5071D24B43900D19C66 /* 标签栏高亮_圈子@2x.png */,
+				1805F5081D24B43900D19C66 /* 标签栏高亮_圈子@3x.png */,
+				1805F5091D24B43900D19C66 /* 标签栏高亮_我的@2x.png */,
+				1805F50A1D24B43900D19C66 /* 标签栏高亮_我的@3x.png */,
+				1805F50B1D24B43900D19C66 /* 标签栏高亮_排气管@2x.png */,
+				1805F50C1D24B43900D19C66 /* 标签栏高亮_排气管@3x.png */,
+				1805F50D1D24B43900D19C66 /* 标签栏高亮_赛道@2x.png */,
+				1805F50E1D24B43900D19C66 /* 标签栏高亮_赛道@3x.png */,
+			);
+			path = tabBar;
+			sourceTree = "<group>";
+		};
+		1842B8D41D2642B0000CF711 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				1842B8D91D264440000CF711 /* VIP背景@2x.png */,
+				1842B8DA1D264440000CF711 /* VIP背景@3x.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		1842B8DD1D264A6A000CF711 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1842B8DE1D264A8E000CF711 /* LeftTableViewCell.h */,
+				1842B8DF1D264A8E000CF711 /* LeftTableViewCell.m */,
+				1842B8E01D264A8E000CF711 /* LeftTableViewCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1805F48C1D24AA9000D19C66 /* 仿制QQ侧滑显示个人信息 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1805F4BA1D24AA9100D19C66 /* Build configuration list for PBXNativeTarget "仿制QQ侧滑显示个人信息" */;
+			buildPhases = (
+				1805F4891D24AA9000D19C66 /* Sources */,
+				1805F48A1D24AA9000D19C66 /* Frameworks */,
+				1805F48B1D24AA9000D19C66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "仿制QQ侧滑显示个人信息";
+			productName = "仿制QQ侧滑显示个人信息";
+			productReference = 1805F48D1D24AA9000D19C66 /* 仿制QQ侧滑显示个人信息.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1805F4A51D24AA9100D19C66 /* 仿制QQ侧滑显示个人信息Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1805F4BD1D24AA9100D19C66 /* Build configuration list for PBXNativeTarget "仿制QQ侧滑显示个人信息Tests" */;
+			buildPhases = (
+				1805F4A21D24AA9100D19C66 /* Sources */,
+				1805F4A31D24AA9100D19C66 /* Frameworks */,
+				1805F4A41D24AA9100D19C66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1805F4A81D24AA9100D19C66 /* PBXTargetDependency */,
+			);
+			name = "仿制QQ侧滑显示个人信息Tests";
+			productName = "仿制QQ侧滑显示个人信息Tests";
+			productReference = 1805F4A61D24AA9100D19C66 /* 仿制QQ侧滑显示个人信息Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1805F4B01D24AA9100D19C66 /* 仿制QQ侧滑显示个人信息UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1805F4C01D24AA9100D19C66 /* Build configuration list for PBXNativeTarget "仿制QQ侧滑显示个人信息UITests" */;
+			buildPhases = (
+				1805F4AD1D24AA9100D19C66 /* Sources */,
+				1805F4AE1D24AA9100D19C66 /* Frameworks */,
+				1805F4AF1D24AA9100D19C66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1805F4B31D24AA9100D19C66 /* PBXTargetDependency */,
+			);
+			name = "仿制QQ侧滑显示个人信息UITests";
+			productName = "仿制QQ侧滑显示个人信息UITests";
+			productReference = 1805F4B11D24AA9100D19C66 /* 仿制QQ侧滑显示个人信息UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1805F4851D24AA9000D19C66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = beginner;
+				TargetAttributes = {
+					1805F48C1D24AA9000D19C66 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4EL4XQ4N64;
+					};
+					1805F4A51D24AA9100D19C66 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1805F48C1D24AA9000D19C66;
+					};
+					1805F4B01D24AA9100D19C66 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1805F48C1D24AA9000D19C66;
+					};
+				};
+			};
+			buildConfigurationList = 1805F4881D24AA9000D19C66 /* Build configuration list for PBXProject "仿制QQ侧滑显示个人信息" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1805F4841D24AA9000D19C66;
+			productRefGroup = 1805F48E1D24AA9000D19C66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1805F48C1D24AA9000D19C66 /* 仿制QQ侧滑显示个人信息 */,
+				1805F4A51D24AA9100D19C66 /* 仿制QQ侧滑显示个人信息Tests */,
+				1805F4B01D24AA9100D19C66 /* 仿制QQ侧滑显示个人信息UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1805F48B1D24AA9000D19C66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1805F5261D24B43900D19C66 /* 标签栏高亮_我的@3x.png in Resources */,
+				1805F5271D24B43900D19C66 /* 标签栏高亮_排气管@2x.png in Resources */,
+				1805F4A01D24AA9000D19C66 /* LaunchScreen.storyboard in Resources */,
+				1805F51B1D24B43900D19C66 /* 标签栏_圈子@2x.png in Resources */,
+				1842B8E21D264A8E000CF711 /* LeftTableViewCell.xib in Resources */,
+				1805F51E1D24B43900D19C66 /* 标签栏_我的@3x.png in Resources */,
+				1805F5231D24B43900D19C66 /* 标签栏高亮_圈子@2x.png in Resources */,
+				1805F5161D24B43900D19C66 /* SecondViewController.xib in Resources */,
+				1805F5141D24B43900D19C66 /* MainViewController.xib in Resources */,
+				1805F51F1D24B43900D19C66 /* 标签栏_排气管@2x.png in Resources */,
+				1805F5241D24B43900D19C66 /* 标签栏高亮_圈子@3x.png in Resources */,
+				1842B8DB1D264440000CF711 /* VIP背景@2x.png in Resources */,
+				1805F5221D24B43900D19C66 /* 标签栏_赛道@3x.png in Resources */,
+				1805F51C1D24B43900D19C66 /* 标签栏_圈子@3x.png in Resources */,
+				1805F5281D24B43900D19C66 /* 标签栏高亮_排气管@3x.png in Resources */,
+				1805F49D1D24AA9000D19C66 /* Assets.xcassets in Resources */,
+				1805F5181D24B43900D19C66 /* TabBarViewController.xib in Resources */,
+				1805F5121D24B43900D19C66 /* LeftViewController.xib in Resources */,
+				1805F49B1D24AA9000D19C66 /* Main.storyboard in Resources */,
+				1805F5251D24B43900D19C66 /* 标签栏高亮_我的@2x.png in Resources */,
+				1805F5211D24B43900D19C66 /* 标签栏_赛道@2x.png in Resources */,
+				1805F5291D24B43900D19C66 /* 标签栏高亮_赛道@2x.png in Resources */,
+				1805F52A1D24B43900D19C66 /* 标签栏高亮_赛道@3x.png in Resources */,
+				1805F5201D24B43900D19C66 /* 标签栏_排气管@3x.png in Resources */,
+				1805F5101D24B43900D19C66 /* FirstViewController.xib in Resources */,
+				1805F51D1D24B43900D19C66 /* 标签栏_我的@2x.png in Resources */,
+				1842B8DC1D264440000CF711 /* VIP背景@3x.png in Resources */,
+				1805F51A1D24B43900D19C66 /* ThirdViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1805F4A41D24AA9100D19C66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1805F4AF1D24AA9100D19C66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1805F4891D24AA9000D19C66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1805F4981D24AA9000D19C66 /* ViewController.m in Sources */,
+				1805F5131D24B43900D19C66 /* MainViewController.m in Sources */,
+				1842B8E11D264A8E000CF711 /* LeftTableViewCell.m in Sources */,
+				1805F5111D24B43900D19C66 /* LeftViewController.m in Sources */,
+				1805F5151D24B43900D19C66 /* SecondViewController.m in Sources */,
+				1805F5171D24B43900D19C66 /* TabBarViewController.m in Sources */,
+				1805F5191D24B43900D19C66 /* ThirdViewController.m in Sources */,
+				1805F4951D24AA9000D19C66 /* AppDelegate.m in Sources */,
+				1805F4921D24AA9000D19C66 /* main.m in Sources */,
+				1805F50F1D24B43900D19C66 /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1805F4A21D24AA9100D19C66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1805F4AB1D24AA9100D19C66 /* __QQ________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1805F4AD1D24AA9100D19C66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1805F4B61D24AA9100D19C66 /* __QQ________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1805F4A81D24AA9100D19C66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1805F48C1D24AA9000D19C66 /* 仿制QQ侧滑显示个人信息 */;
+			targetProxy = 1805F4A71D24AA9100D19C66 /* PBXContainerItemProxy */;
+		};
+		1805F4B31D24AA9100D19C66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1805F48C1D24AA9000D19C66 /* 仿制QQ侧滑显示个人信息 */;
+			targetProxy = 1805F4B21D24AA9100D19C66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1805F4991D24AA9000D19C66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1805F49A1D24AA9000D19C66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1805F49E1D24AA9000D19C66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1805F49F1D24AA9000D19C66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1805F4B81D24AA9100D19C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1805F4B91D24AA9100D19C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1805F4BB1D24AA9100D19C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)//仿制QQ侧滑显示个人信息/FGloble.pch";
+				INFOPLIST_FILE = "仿制QQ侧滑显示个人信息/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ben.--QQ--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		1805F4BC1D24AA9100D19C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)//仿制QQ侧滑显示个人信息/FGloble.pch";
+				INFOPLIST_FILE = "仿制QQ侧滑显示个人信息/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ben.--QQ--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		1805F4BE1D24AA9100D19C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "仿制QQ侧滑显示个人信息Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ben.--QQ--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/仿制QQ侧滑显示个人信息.app/仿制QQ侧滑显示个人信息";
+			};
+			name = Debug;
+		};
+		1805F4BF1D24AA9100D19C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "仿制QQ侧滑显示个人信息Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ben.--QQ--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/仿制QQ侧滑显示个人信息.app/仿制QQ侧滑显示个人信息";
+			};
+			name = Release;
+		};
+		1805F4C11D24AA9100D19C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "仿制QQ侧滑显示个人信息UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ben.--QQ--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "仿制QQ侧滑显示个人信息";
+			};
+			name = Debug;
+		};
+		1805F4C21D24AA9100D19C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "仿制QQ侧滑显示个人信息UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ben.--QQ--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "仿制QQ侧滑显示个人信息";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1805F4881D24AA9000D19C66 /* Build configuration list for PBXProject "仿制QQ侧滑显示个人信息" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1805F4B81D24AA9100D19C66 /* Debug */,
+				1805F4B91D24AA9100D19C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1805F4BA1D24AA9100D19C66 /* Build configuration list for PBXNativeTarget "仿制QQ侧滑显示个人信息" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1805F4BB1D24AA9100D19C66 /* Debug */,
+				1805F4BC1D24AA9100D19C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1805F4BD1D24AA9100D19C66 /* Build configuration list for PBXNativeTarget "仿制QQ侧滑显示个人信息Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1805F4BE1D24AA9100D19C66 /* Debug */,
+				1805F4BF1D24AA9100D19C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1805F4C01D24AA9100D19C66 /* Build configuration list for PBXNativeTarget "仿制QQ侧滑显示个人信息UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1805F4C11D24AA9100D19C66 /* Debug */,
+				1805F4C21D24AA9100D19C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1805F4851D24AA9000D19C66 /* Project object */;
+}
